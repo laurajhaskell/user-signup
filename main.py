@@ -32,7 +32,7 @@ def validate():
     if verify == '':
         verify_password_error = "Passwords do not match"
 
-    #error2 - The user's username or password is not valid -- for example, it contains a space character
+    #error2 - The user's username or password is not valid -- for example, it contains a space character  or it consists of less than 3 characters or more than 20 characters
     if ' ' in username:
         username_error = "That's not a valid username"
 
